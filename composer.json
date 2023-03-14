@@ -1,0 +1,17 @@
+{
+    "name": "codecov/example-php",
+    "type": "library",
+    "license": "MIT",
+    "description": "Codecov Example PHP",
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.5"
+    },
+    "autoload": {
+        "files": [
+            "calculator/BasicCalculator.php"
+        ]
+    }
+}
